@@ -68,7 +68,7 @@ function averageEvenElementsWorker(...arr) {
 		}
 	}
 	if (countEvenElement === 0) return 0;
-	return (sumEvenElement / countEvenElement).toFixed(2);
+	return parseFloat((sumEvenElement / countEvenElement).toFixed(2));
 }
 
 function makeWork(arrOfArr, func) {
