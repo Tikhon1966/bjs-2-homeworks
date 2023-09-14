@@ -1,4 +1,4 @@
-'use strikt';
+'use strict';
 
 class PrintEditionItem {
 	constructor(name, releaseDate, pagesCount) {
